@@ -1,0 +1,84 @@
+# Clean  matplotlib theme
+
+backend      : Agg
+
+### LINES
+lines.linewidth   : 1.5     # line width in points
+#lines.linestyle   : -       # solid line
+lines.antialiased : True         # render lines in antialiased (no jaggies)
+
+### FONT
+font.family		: sans-serif
+font.serif		: Garamond, Baskerville, Times New Roman, Times, serif
+font.sans-serif		: Super Grotesk Offc Pro, Helvetica, sans-serif
+
+# Special text sizes can be defined
+# relative to font.size, using the following values: xx-small, x-small,
+# small, medium, large, x-large, xx-large, larger, or smaller
+font.size		: 12.0
+
+### FIGURE
+figure.titlesize : large     
+figure.titleweight : normal  
+figure.figsize   : 12, 6  
+figure.facecolor	: white    # figure facecolor; 0.75 is scalar gray
+text.color		: 232323 #used in places where text color is non-explicitly specified
+
+### AXES
+axes.spines.left   : True   ## display axis spines
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right  : False
+axes.facecolor      : white   # axes background color
+axes.edgecolor      : b5b5b5  # axes edge color, used where color is non-explicitly specified
+axes.linewidth      : 1.5     # edge linewidth
+axes.grid           : False   # display grid or not
+axes.titlesize      : x-large   # fontsize of the axes title
+axes.labelsize      : large  # fontsize of the x any y labels
+axes.labelpad       : 10.0     # space between label and axis
+axes.labelcolor     : 232323
+
+# Clean color pallete
+axes.prop_cycle		: cycler('color', ['fd6900', '00b67d', 'fa4092', 'ffc000', 'aaa293', '464646'])
+#axes.xmargin        : 0  # x margin.  See `axes.Axes.margins`
+#axes.ymargin        : 0  # y margin See `axes.Axes.margins`
+
+
+### TICKS
+xtick.bottom         : True
+xtick.major.size     : 5      # major tick size in points
+xtick.minor.size     : 0      # minor tick size in points
+xtick.major.pad      : 10.0     # distance to major tick label in points
+xtick.minor.pad      : 10.0     # distance to the minor tick label in points
+xtick.color          : 232323      # color of the tick labels
+xtick.labelsize      : medium # fontsize of the tick labels
+xtick.direction      : in    ## direction: in, out, or inout
+ytick.left         : True
+ytick.major.size     : 5      # major tick size in points
+ytick.minor.size     : 0      # minor tick size in points
+ytick.major.pad      : 10.0      # distance to major tick label in points
+ytick.minor.pad      : 10.0     # distance to the minor tick label in points
+ytick.color          : 232323      # color of the tick labels
+ytick.labelsize      : medium # fontsize of the tick labels
+ytick.direction      : in    ## direction: in, out, or inout
+
+
+### GRIDS
+grid.color		:   909090   # grid color
+grid.linestyle		:   dotted
+grid.linewidth		:    0.5     # in points
+grid.alpha		:    0    # transparency, between 0.0 and 1.0
+
+### Legend
+legend.edgecolor	:	b5b5b5
+legend.fancybox      : True # if True, use a rounded box for the legend, else a rectangle
+legend.fontsize      : large
+legend.borderpad     : 0.5    # border whitespace in fontsize units
+legend.labelspacing  : 0.5    # the vertical space between the legend entries in fraction of fontsize
+legend.handlelength  : 2.0     # the length of the legend lines in fraction of fontsize
+legend.handleheight  : 0.5     # the height of the legend handle in fraction of fontsize
+legend.handletextpad : 0.5    # the space between the legend line and legend text in fraction of fontsize
+legend.borderaxespad : 0.5   # the border between the axes and legend edge in fraction of fontsize
+legend.columnspacing : 2.0    # the border between the axes and legend edge in fraction of fontsize
+legend.frameon       : True   # whether or not to draw a frame around legend
+legend.framealpha    : 1.0    # opacity of of legend frame
