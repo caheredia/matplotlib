@@ -1,6 +1,6 @@
 # Cristian's Clean matplotlib theme
 
-backend      : Agg
+backend      : TkAgg
 
 ### LINES
 lines.linewidth   : 1.5     # line width in points
@@ -18,9 +18,9 @@ font.sans-serif		: Super Grotesk Offc Pro, Helvetica, sans-serif
 font.size		: 12.0
 
 ### FIGURE
-figure.titlesize : large     
-figure.titleweight : normal  
-figure.figsize   : 12, 6  
+figure.titlesize : xx-large
+figure.titleweight : normal
+figure.figsize   : 8, 5
 figure.facecolor	: white    # figure facecolor; 0.75 is scalar gray
 text.color		: 232323 #used in places where text color is non-explicitly specified
 
@@ -37,6 +37,8 @@ axes.titlesize      : x-large   # fontsize of the axes title
 axes.labelsize      : large  # fontsize of the x any y labels
 axes.labelpad       : 10.0     # space between label and axis
 axes.labelcolor     : 232323
+# use this to deal with fonts with no minus sign
+# axes.unicode_minus  : False
 
 # Clean color pallete
 axes.prop_cycle		: cycler('color', ['fd6900', '00b67d', 'fa4092', 'ffc000', 'aaa293', '464646'])
